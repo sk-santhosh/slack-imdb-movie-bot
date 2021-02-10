@@ -47,7 +47,6 @@ function notFound(channelId, message) {
 }
 
 function movie(channelId, movie) {
-  console.log(movie);
   sendMessage(channelId, `Movie: ${movie.title}`, {
     attachments: [
       {
