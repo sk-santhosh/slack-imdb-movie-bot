@@ -1,0 +1,18 @@
+{
+  "name": "imdb-movie-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "imdb-api": "^4.4.1"
+  }
+}
