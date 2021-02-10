@@ -3,4 +3,6 @@ module.exports = require("./app.js");
 
 const server = require("http").createServer();
 
-server.listen(3000, () => console.log("Server started in port 3000"));
+server.listen(process.env.PORT || 3000, () =>
+  console.log(`Server started in port ${process.env.PORT || 5000}`)
+);
